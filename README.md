@@ -3,13 +3,25 @@
 Chrome Extension that converts any Cyrillic letters to Latin ones.
 Supports every Cyrillic alphabet (Slavic and non-Slavic)!
 
-How it works:
+How to install:
 ------
-[Install by adding it](https://chrome.google.com/webstore/detail/latinify/clhcmoeloccdehioknhbbdokpkceaoha/overview) to your Chrome.
+Linux/MacOS
+```bash
+git clone https://github.com/LucyUwI/latinify-spicetify.git 
+cd latinify-spicetify
+mv Latinfier.js ~/.config/spicetify/Extensions/
+spicetify config extensions Latinfier.js
+spicetify apply
+```
+Windows
+```git clone https://github.com/LucyUwI/latinify-spicetify.git 
+cd latinify-spicetify
+mv Latinfier.js %appdata%\spicetify\Extensions\
+spicetify config extensions Latinfier.js
+spicetify apply
+```
 
-Works when you load any page that contains Cyrillic alphabet, by automiatically converting it to Latin.
-
-![use](/images/1280x800.png)
+Works when you press the ДD Button to convert Cyrilic to Latin
 
 Cyrillic alphabets supported:
 ----------------------------
