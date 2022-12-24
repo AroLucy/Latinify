@@ -19,14 +19,41 @@ function latin() {
         }
     }
 }
+
+if (localStorage.getItem("Trans") == null){
+    localStorage.setItem("Trans",false)
+}
+
+function toggleTrans(){
+    if (localStorage.getItem("Trans") == "false") {
+        localStorage.setItem("Trans",true)
+    } else {
+        localStorage.setItem("Trans",false)
+    }
+}
+
 tolatin = document.createElement("button")
 icon = document.createElement("img")
 icon.setAttribute("src", "https://raw.githubusercontent.com/LucyUwI/latinify-spicetify/master/iconCtL.svg")
 icon.setAttribute("height","21px")
 tolatin.appendChild(icon)
-tolatin.setAttribute("onclick","latin()")
+tolatin.setAttribute("onclick","toggleTrans()")
 tolatin.setAttribute("class", "ZMXGDTbwxKJhbmEDZlYy control-button")
 setTimeout(() => {
     control = document.getElementsByClassName("ClYTTKGdd9KB7D9MXicj")[0]
     control.prepend(tolatin)
-}, 5000)
+}, 10000)
+
+
+const observer = new MutationObserver((mutations, observer) => {
+  if (localStorage.getItem("Trans") == "true") {
+      latin()
+  }
+});
+observer.observe(document, {
+  subtree: true,
+  attributes: true
+});
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+(async () => {
+})();
