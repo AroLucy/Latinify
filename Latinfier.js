@@ -31,6 +31,9 @@ function toggleTrans(){
         localStorage.setItem("Trans",false)
     }
 }
+function getElementByXpath(path) {
+  return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+}
 
 tolatin = document.createElement("button")
 icon = document.createElement("img")
@@ -40,7 +43,7 @@ tolatin.appendChild(icon)
 tolatin.setAttribute("onclick","toggleTrans()")
 tolatin.setAttribute("class", "ZMXGDTbwxKJhbmEDZlYy control-button")
 setTimeout(() => {
-    control = document.getElementsByClassName("ClYTTKGdd9KB7D9MXicj")[0]
+    control = getElementByXpath('//*[@id="main"]/div/div[2]/div[2]/footer/div[1]/div[3]/div')
     control.prepend(tolatin)
 }, 10000)
 
