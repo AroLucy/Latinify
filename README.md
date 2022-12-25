@@ -14,7 +14,7 @@ Windows
 ```ps
 git clone https://github.com/LucyUwI/latinify-spicetify.git 
 cd latinify-spicetify
-mv Latinfier.js %appdata%\spicetify\Extensions\
+Move-Item -Path .\Latinfier.js -Destination %appdata%\spicetify\Extensions\
 spicetify config extensions Latinfier.js
 spicetify apply
 ```
