@@ -1,8 +1,5 @@
 # Latinify
-![banner](images/latinifyGithub.png)
-Spictify Extension that converts any Cyrillic letters to Latin ones.
-Supports every Cyrillic alphabet (Slavic and non-Slavic)!
-
+### Before ![](Russian.png) After ![](Latin.png)
 How to install:
 ------
 Linux/MacOS
@@ -23,6 +20,7 @@ spicetify apply
 
 Works when you press the ДD Button to convert Cyrilic to Latin
 
+#### If the ДD doesn't show up, reload discord, and if that doesn't work message me (Discord: Lucy#3030) Spotify has probably changed something
 Cyrillic alphabets supported:
 ----------------------------
 * Belarus
