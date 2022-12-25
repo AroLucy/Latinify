@@ -18,9 +18,9 @@ spicetify config extensions Latinfier.js
 spicetify apply
 ```
 
-Works when you press the ДD Button to convert Cyrilic to Latin
+Works when you press the Д<sup>D</sup> Button to convert Cyrilic to Latin
 
-#### If the ДD doesn't show up, reload discord, and if that doesn't work message me (Discord: Lucy#3030) Spotify has probably changed something
+#### If the Д<sup>D</sup> doesn't show up, reload discord, and if that doesn't work message me (Discord: Lucy#3030) Spotify has probably changed something
 Cyrillic alphabets supported:
 ----------------------------
 * Belarus
