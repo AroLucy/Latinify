@@ -51,6 +51,10 @@ setTimeout(() => {
         document.querySelector(".ClYTTKGdd9KB7D9MXicj") ||
         document.querySelector(".mwpJrmCgLlVkJVtWjlI1");
     control?.prepend(tolatin)
+    if (localStorage.getItem("Trans") == "true") {
+      document.getElementById("ToLatin").children[0].children[0].setAttribute("fill","var(--spice-button)")
+    }
+
 }, 3000)
 
 
