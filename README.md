@@ -4,16 +4,16 @@ How to install:
 ------
 Linux/MacOS
 ```bash
-wget https://raw.githubusercontent.com/LucyUwI/latinify-spicetify/master/Latinfier.js
+wget https://raw.githubusercontent.com/LucyUwI/latinify-spicetify/master/Latinify.js
 mv ./Latinfier.js ~/.config/spicetify/Extensions/
-spicetify config extensions Latinfier.js
+spicetify config extensions Latinify.js
 spicetify apply
 ```
 Windows
 ```ps
-wget https://raw.githubusercontent.com/LucyUwI/latinify-spicetify/master/Latinfier.js
-Move-Item -Path .\Latinfier.js -Destination %appdata%\spicetify\Extensions\
-spicetify config extensions Latinfier.js
+wget https://raw.githubusercontent.com/LucyUwI/latinify-spicetify/master/Latinify.js
+Move-Item -Path .\Latinify.js -Destination %appdata%\spicetify\Extensions\
+spicetify config extensions Latinify.js
 spicetify apply
 ```
 
