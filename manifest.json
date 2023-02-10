@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Latinify",
+      "description": "Spicetify Extension that converts any Cyrillic letters to Latin ones.",
+      "preview": "Latin.png",
+      "main": "Latinify.js",
+      "readme": "README.md",
+      "authors": [
+          { "name": "LucyUwI", "url": "https://github.com/LucyUwI" }
+      ],
+      "tags": ["Russian","Cyrillic"]
+    }
+  ]
