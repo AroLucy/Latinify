@@ -5,7 +5,7 @@ How to install:
 Linux/MacOS
 ```bash
 wget https://raw.githubusercontent.com/LucyUwI/latinify-spicetify/master/Latinify.js
-mv ./Latinfier.js ~/.config/spicetify/Extensions/
+mv ./Latinify.js ~/.config/spicetify/Extensions/
 spicetify config extensions Latinify.js
 spicetify apply
 ```
